@@ -1,0 +1,98 @@
+body{
+    
+}
+/* header settings */
+
+.header-div{
+    position: relative;
+    inset: 0px 0px 0px 0px;
+    margin: 0 auto;
+    width: 100%;
+    border: red 1px solid;
+}
+.header-img{
+    position: relative;
+    padding: 1rem;
+    margin-left: 3rem;
+}
+.navigation-menu {
+    position: relative;
+    float: right;
+    border: blue 1px solid;
+    margin-right: 4rem;
+    list-style-type: none;
+    text-align: right;
+}
+
+.navigation-menu li{
+    display: inline-block;
+    padding: 1.5rem;
+}
+
+/* home settings */
+.home-img{
+    width: 100%;
+    display: block;
+    position: relative;
+    inset: 0px 0px 0px 0px;
+    margin: 3rem auto;
+}
+hr{
+    border-top: 5px solid #000000;
+}
+
+/* about settings */
+.about-div{
+    position: relative;
+    inset: 0px 0px 0px 0px;
+    margin: 3rem auto;
+    border: 1px blue solid;
+    width: 88%;
+    height: auto;
+}
+
+.first-content, .second-content{
+    width: 49.85%;
+    height: 100%;
+}
+.first-content{
+    display: inline-block;
+    border: 1px black solid;
+}
+
+.second-content{
+    float: right;
+    height: 30rem;
+}
+
+.second-content-img{
+    height: auto;
+    border: 1px solid red;
+    width: 100%;
+    
+}
+/* footer settings */
+.footer{
+    border: 1px solid black;
+    text-align: center;
+}
+.footer-links{
+    float: left;
+    border: 1px solid red;
+    width: 15%;
+    padding: 1rem; 
+    margin-left: -3rem;  
+    border-right: 3px solid black;
+}
+.footer-links ul{
+    list-style-type: none;
+}
+
+.social-platform{
+    width: 15%;
+    float: left;
+    border: 1px red solid;
+}
+.social-platform ul{
+    list-style-type: none;
+}
