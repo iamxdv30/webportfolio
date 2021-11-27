@@ -1,44 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Fonts*/
+
 body{
-    
+    font-family: 'Ubuntu', sans-serif;
 }
 /* header settings */
 
-.header-div{
+    /*The Color and setup of the Header block*/
+header .header-div{
     position: relative;
     inset: 0px 0px 0px 0px;
     margin: 0 auto;
     width: 100%;
-    border: red 1px solid;
-}
-.header-img{
-    position: relative;
-    padding: 1rem;
-    margin-left: 3rem;
-    width: 13%;
-    height: 13%;
-}
-.navigation-menu {
-    position: relative;
-    float: right;
-    border: blue 1px solid;
-    margin-right: 4rem;
-    list-style-type: none;
-    text-align: right;
+    height: 15vh;
+    background-color: black;
 }
 
-.navigation-menu li{
-    display: inline-block;
-    padding: 1.5rem;
+.header-div{
+
+    width: 85%;
+    margin: auto;
+    padding: 35px, 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
+
+    /*Logo Effect*/
+.logo {
+    cursor: pointer;
+}
+
+    /*To place on the Right of the block*/
+.header-div ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: relative;
+
+}
+
+    /*To remove the underline effect of text and color scheme*/
+.header-div ul li a {
+
+    text-decoration: none;
+         /*remove the underline effect*/
+    color: white;
+    text-transform: uppercase;
+
+}
+    /*The Hovering effect*/
+.header-div ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.header-div ul li:hover::after {
+    width: 100%;
+}
+    /*End of Hovering Effect Setting*/
+
+
+/*End of Header Settings*/
+
 
 /* home settings */
-.home-img{
+
+    /*To show the Background image and lowers the oppacity*/
+.home-div{
     width: 100%;
+    height: 70vh;
     display: block;
     position: relative;
     inset: 0px 0px 0px 0px;
-    margin: 3rem auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
+    /*To Enlarge font of the Header 1*/
+.home-div h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+    /*To Enlarge font of the Paragraph and content alignment*/
+.home-div div p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+    /*To Change the size of the button*/
+button {
+    background:rgb(0, 204, 204);
+    border-radius: 25px;
+    border: 2.5px solid #fff;
+    padding: 0.3    rem;
+    height: 6vh;
+    width: 15%;
+    cursor: pointer;
+}
+
+
+    /*To change the look of text*/
+.main button a {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+}
+
+    /*The Hovering effect*/
+button a::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: whitesmoke;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+button a:hover::after {
+    width: 100%;
+}
+    /*End of Hovering Effect Setting*/
+
+/* End of Home Settings */
 hr{
     border-top: 5px solid #000000;
 }
