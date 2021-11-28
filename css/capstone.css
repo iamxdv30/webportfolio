@@ -80,7 +80,7 @@ body{
     /*To show the Background image and lowers the oppacity*/
 .home-div{
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     display: block;
     position: relative;
     inset: 0px 0px 0px 0px;
@@ -163,11 +163,7 @@ body{
     width: 100%;
     height: 55vh;
     padding-top: 2rem;
-    position: relative;
-    inset: 0px 0px 0px 0px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.10),rgba(0, 0, 0, 0.10)),url(../images/abtpagecover.jpg);
-    background-size: cover;
-    background-position: center;
+    
 }
 .about-div h1 {
     font-weight: bold;
@@ -185,13 +181,13 @@ body{
 
 .abtcarousel div{
     width: 88%;
-    height: 50vh;
+    height: 100%;
     margin-left: 1rem;
 }
 
 .carousel-inner img {
-    width: 100%;
-    height: 50vh;
+    width: 95%;
+    height: 65vh;
     align-items: center;
     margin-left: 1.5rem;
 }
@@ -203,10 +199,10 @@ body{
     height: 50px;
     border: none;
     color: white;
-    background: rgb(255,0,68);
+    background: grey;
     border-radius: 20px;
-    box-shadow: inset 0 0 0 0 #f9e506;
-    transition: ease-out 0.3s;
+    box-shadow: inset 0 0 0 0 #D4AF37;
+    transition: ease-out 0.5s;
     outline: none;  
 }
 .moredetailsbtn {
@@ -214,7 +210,7 @@ body{
 }  
 
 .btn-3:hover {
-    box-shadow: inset 300px 0 0 0 #f9e506;
+    box-shadow: inset 300px 0 0 0 #D4AF37;
     cursor: pointer;
     color: #000;
 }
@@ -225,28 +221,67 @@ body{
     color: white;
     font-weight: bold;
 }
-/* footer settings */
-.footer{
-    border: 1px solid black;
-    text-align: center;
-}
-.footer-links{
-    float: left;
-    border: 1px solid red;
-    width: 15%;
-    padding: 1rem; 
-    margin-left: -3rem;  
-    border-right: 3px solid black;
-}
-.footer-links ul{
-    list-style-type: none;
+
+/*Hobbies Settings*/
+
+#hobbies
+    {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10),rgba(0, 0, 0, 0.10)),url(../images/hobbiespagecover.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff!important;
+    background-attachment: fixed;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 65vh;
+    margin-top: 10rem;
+    }
+#hobbies p{
+    font-size: 1.2rem;
 }
 
-.social-platform{
-    width: 15%;
-    float: left;
-    border: 1px red solid;
+#hobbies h1 {
+        text-align: center;
+        color: #D4AF37!important;
+        padding-bottom: 1rem;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+#hobbies h1::after {
+        content: '';
+        background: #D4AF37;
+        display: block;
+        height: 0.5rem;
+        width: 10.5rem;
+        margin: 2rem auto 5px;
+    }
+.hobby {
+    margin-top: 2.5rem ;
 }
-.social-platform ul{
-    list-style-type: none;
+
+.icon {
+    font-size: 2.5rem;
+    margin: 1.25rem auto;
+    padding: 1.25rem;
+    height: 6rem;
+    width: 6rem;
+    border: 1px solid white;
+    border-radius: 50%;
 }
+
+.icon p{
+    font-size: 1rem;
+    margin-top: 1.25rem ;
+}
+
+/*Footer Settings*/
+
+.footer h1{
+    font-weight: bold;
+}
+.fab {
+    font-size: 3rem;
+    color: white;
+}
+
