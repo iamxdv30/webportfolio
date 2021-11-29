@@ -1,0 +1,111 @@
+body {
+	width: 100%;
+    height: 100vh;
+    display: block;
+    position: relative;
+    inset: 0px 0px 0px 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.10)),url(../images/abtpagecover.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+/*Nav bar stays visible upon scrolling down*/
+ #nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 70px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    
+}
+
+
+#navbarNav ul li {
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.navbar {
+    background:black;
+}
+
+.navbar-toggler {
+    border: none!important;
+}
+
+.nav-link {
+    color: white!important;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/*Skills and Project*/
+	
+
+.row p {
+	margin-bottom: 0.3rem;
+	font-weight: bold;
+	padding-left: 1rem;
+	text-align: center;
+
+}
+
+
+.progress-bar {
+	border-radius: 1rem;
+	padding-left: 2rem;
+
+
+}
+
+.progress {
+	border-radius: 1rem!important;
+	width: 50%;
+	margin: auto;
+
+}
+
+.project1 img {
+	width: 120%;
+	height: 100%;
+	border-radius: 25px;
+}
+
+.project2 img {
+	width: 60%;
+	height: 100%;
+	border-radius: 25px;
+}
+
+.project3 img {
+	width: 80%;
+	height: 100%;
+	border-radius: 25px;
+}
+
+
+/*Footer Settings*/
+
+.footer h1{
+    font-weight: bold;
+}
+.fab {
+    font-size: 3rem;
+    color: white;
+}
