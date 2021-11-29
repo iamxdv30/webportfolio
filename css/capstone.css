@@ -161,7 +161,7 @@ body{
     position: relative;
     inset: 0px 0px 0px 0px;
     width: 100%;
-    min-height: 30rem;
+    min-height: 35rem;
     padding-top: 2rem;
     
 }
@@ -192,7 +192,7 @@ body{
     top: 0;
     left: 0;
     align-items: center;
-    margin-left: 10rem;
+    margin-left: 6rem;
 }
 
 
