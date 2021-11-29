@@ -161,7 +161,7 @@ body{
     position: relative;
     inset: 0px 0px 0px 0px;
     width: 100%;
-    height: 55vh;
+    min-height: 20rem;
     padding-top: 2rem;
     
 }
@@ -181,16 +181,17 @@ body{
 }
 
 .abtcarousel div{
-    width: 88%;
+    width: 35vw;
     height: 100%;
     margin-left: 1rem;
 }
 
 .carousel-inner img {
-    width: 95%;
-    height: 65vh;
+    position: absolute;
+    top: 0;
+    left: 0;
     align-items: center;
-    margin-left: 1.5rem;
+    margin-left: 5rem;
 }
 
 
@@ -234,8 +235,11 @@ body{
     background-attachment: fixed;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    height: 65vh;
-    margin-top: 10rem;
+    min-height: 20rem;
+    padding: 2rem auto;
+    margin: auto;
+
+
     }
 #hobbies p{
     font-size: 1.2rem;
@@ -277,6 +281,10 @@ body{
 }
 
 /*Footer Settings*/
+
+.footer {
+    margin: auto;
+}
 
 .footer h1{
     font-weight: bold;
