@@ -180,11 +180,17 @@ body{
     bottom: 0;
 }
 
+#about {
+
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
 .abtcarousel div{
     width: 35vw;
-    height: 100%;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
+    height: 30vh;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+    margin-bottom: 1rem;
 }
 
 .carousel-inner img {
@@ -192,7 +198,25 @@ body{
     top: 0;
     left: 0;
     align-items: center;
-    margin-left: 6rem;
+    
+}
+
+.carousel-item img {
+    position: absolute;
+    align-items: center;
+    padding: auto;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    height: 100%;
+    width: 300px;
+}
+
+#headerslider {
+    width: 45%;
+    height: 66%;
+    padding-bottom: 4rem;
+    margin-left: 3rem;
+
 }
 
 
