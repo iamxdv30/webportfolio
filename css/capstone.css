@@ -163,6 +163,7 @@ body{
     width: 100%;
     min-height: 35rem;
     padding-top: 2rem;
+    padding-left: 8rem;
     
 }
 .about-div h1 {
@@ -185,39 +186,14 @@ body{
     padding-left: 1rem;
     font-size: 1.2rem;
 }
-.abtcarousel div{
-    width: 35vw;
-    height: 30vh;
-    margin-top: 1rem;
-    margin-left: 0.4rem;
-    margin-bottom: 1rem;
-}
 
-.carousel-inner img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    align-items: center;
-    
-}
-
-.carousel-item img {
-    position: absolute;
-    align-items: center;
-    padding: auto;
+.dp img{
+    border-radius: 25px;
+    display: inline;
+    border: black 5px solid;
     margin-left: 1rem;
-    margin-bottom: 2rem;
-    height: 100%;
-    width: 300px;
 }
 
-#headerslider {
-    width: 45%;
-    height: 66%;
-    padding-bottom: 4rem;
-    margin-left: 3rem;
-
-}
 
 
 /*More Details Button settings*/
