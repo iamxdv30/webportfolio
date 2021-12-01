@@ -84,7 +84,7 @@ body{
     display: block;
     position: relative;
     inset: 0px 0px 0px 0px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(./images/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(../Images/background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -229,7 +229,7 @@ body{
 
 #hobbies
     {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.10),rgba(0, 0, 0, 0.10)),url(./images/hobbiespagecover.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10),rgba(0, 0, 0, 0.10)),url(../Images/hobbiespagecover.jpg);
     background-size: cover;
     background-position: center;
     color: #fff!important;
